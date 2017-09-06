@@ -40,7 +40,7 @@ public class BackgroundColor implements Drawable {
 		if (x == null || y == null)
 			setPosition();	// x = 0.0f; y = 0.0f;
 		if (width == null || height == null || width < 0.0f || height < 0.0f)
-			setSize();		// width = 0.0f; height = 0.0f;
+			setSize();	// width = 0.0f; height = 0.0f;
 		if (color == null)
 			setColor(255, 255, 255, 255);
 		if (sprite == null) {
