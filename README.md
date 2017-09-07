@@ -8,7 +8,7 @@ BackgroundColor backgroundColor = new BackgroundColor("white_color_texture.png")
 backgroundColor.setColor(2, 179, 228, 255); // r, g, b, a
 table.setBackground(backgroundColor);
 ```
-Where `table` is an instance of a libGDX Table, `com.badlogic.gdx.scenes.scene2d.ui.Table`.
+Where `table` is an instance of a libGDX Table, `com.badlogic.gdx.scenes.scene2d.ui.Table`, and `"white_color_texture.png"` is an arbitrary name of a PNG file located in the project's root resource directory, which is **/android/assets/** by default. 
 
 ## Purpose of this Repository
 
