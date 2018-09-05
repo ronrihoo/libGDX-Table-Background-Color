@@ -98,10 +98,16 @@ public class BackgroundColor implements Drawable {
 	
 	public void setColor(int r, int g, int b, int a) {
 		color = new Color(r/255f, g/255f, b/255f, a/255f);
+		if (sprite != null) {
+			setSpriteColor();
+		}
 	}
 
 	public void setColor(float r, float g, float b, float a) {
 		color = new Color(r/255f, g/255f, b/255f, a/255f);
+		if (sprite != null) {
+			setSpriteColor();
+		}
 	}
 	
 	private void setSpritePosition(float x, float y) {
